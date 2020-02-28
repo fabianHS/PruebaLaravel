@@ -20,6 +20,6 @@ class Language
       $handle = $request->server('HTTP_ACCEPT_LANGUAGE');
         $lang = substr($handle, 0, 2);
         App::setLocale($lang);
-        return $next($request);
+        return  $next($request);
     }
 }

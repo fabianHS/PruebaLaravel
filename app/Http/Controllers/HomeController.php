@@ -8,6 +8,7 @@ class HomeController extends Controller
 {
   public function getHome()
   {
+    //return response('Respuesta',200);
     return view('home');
   }
 }

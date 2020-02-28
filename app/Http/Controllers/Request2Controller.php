@@ -12,5 +12,6 @@ class Request2Controller extends Controller
     echo  $request->url();
     echo  $request->input($request->url());
     echo $request->fullUrl();
+    
   }
 }
